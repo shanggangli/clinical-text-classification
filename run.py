@@ -10,10 +10,10 @@ import torch.nn.functional as F
 
 if __name__ == '__main__':
     # hyper-parameter
-    BATCH_SIZE = 8
+    BATCH_SIZE = 128
     RANDOM_SEED = 1000
     MAX_LEN = 512
-    learning_rate = 0.001
+    learning_rate = 5e-5
     epochs = 10
     min_loss = 1000
     path = "/Users/lee/Desktop/text classification/cleaned_text0320.csv"
